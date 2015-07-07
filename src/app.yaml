@@ -1,7 +1,10 @@
-application: datastore_backup_shortcut    # change here
-version: 1
+application: gcp-ug-dev
+module: datastore-backup-shortcut
+version: 20150707a
 runtime: go
 api_version: go1
+instance_class: F1
+automatic_scaling:
 
 handlers:
 - url: /.*
